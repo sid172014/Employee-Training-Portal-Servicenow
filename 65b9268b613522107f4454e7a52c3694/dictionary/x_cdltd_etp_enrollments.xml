@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3a8e7d93503122107f4472b5da834720" label="Enrollments" max_length="40" name="x_cdltd_etp_enrollments" type="collection">
+        <element label="Completion Date" max_length="40" name="completion_date" type="glide_date_time"/>
+        <element label="Course" max_length="32" name="course" reference="x_cdltd_etp_courses" type="reference"/>
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="Enrollment Date" max_length="40" name="enrollment_date" type="glide_date_time"/>
+        <element label="Score" max_length="20" name="score" type="decimal"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
+                <element inactive_on_update="false" label="Completed" value="completed"/>
+                <element inactive_on_update="false" label="Enrolled" value="enrolled"/>
+                <element inactive_on_update="false" label="In Progress" value="in_progress"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="course"/>
+        </index>
+        <index name="index2">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
