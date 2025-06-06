@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cdltd_etp_enrollments</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_cdltd_etp_enrollments">status=completed^completion_dateISEMPTY^EQ<item display_value="Completed" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="completed"/>
+            <item endquery="false" field="completion_date" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Udpate Completion Date</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var dateTime = new GlideDateTime().getDisplayValue();
+	current.completion_date = dateTime;
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 16:18:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8c6fc7b113122107f44841f2ab352ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Udpate Completion Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_update_name>sys_script_e8c6fc7b113122107f44841f2ab352ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 16:18:15</sys_updated_on>
+        <template/>
+        <when>async_always</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=e8c6fc7b113122107f44841f2ab352ef"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</application>
+        <file_path/>
+        <instance_id>840002434775e6148fac02ee536d4339</instance_id>
+        <instance_name>nowlearning-nlinst02866094-2ggqt-0001</instance_name>
+        <name>sys_script_e8c6fc7b113122107f44841f2ab352ef</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_cdltd_etp_enrollments&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_cdltd_etp_enrollments"&gt;status=completed^completion_dateISEMPTY^EQ&lt;item display_value="Completed" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="completed"/&gt;&lt;item endquery="false" field="completion_date" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Udpate Completion Date&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var dateTime = new GlideDateTime().getDisplayValue();
+	current.completion_date = dateTime;
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-04 16:18:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e8c6fc7b113122107f44841f2ab352ef&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Udpate Completion Date&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Training Portal" source="x_cdltd_etp"&gt;65b9268b613522107f4454e7a52c3694&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Training Portal"&gt;65b9268b613522107f4454e7a52c3694&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_e8c6fc7b113122107f44841f2ab352ef&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-04 16:18:15&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;async_always&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e8c6fc7b113122107f44841f2ab352ef"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>498163454</payload_hash>
+        <record_name>Udpate Completion Date</record_name>
+        <reverted_from/>
+        <source>e9b9268b613522107f4454e7a52c3696</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 16:18:15</sys_created_on>
+        <sys_id>3c37f0fb113122107f44841f2ab35281</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1973bbc75370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 16:18:15</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>fc37f0fb6631221028a447106b792f80</update_guid>
+        <update_guid_history>fc37f0fb6631221028a447106b792f80:498163454</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 16:19:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>38b98f59b49d4e37a330b58a587e6da1</sys_id>
+        <sys_metadata>e8c6fc7b113122107f44841f2ab352ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Udpate Completion Date</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_parent display_value="Enrollments">3a8e7d93503122107f4472b5da834720</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_scope_delete display_value="">16524640133c4f83822252435e1a0641</sys_scope_delete>
+        <sys_update_name>sys_script_e8c6fc7b113122107f44841f2ab352ef</sys_update_name>
+        <sys_update_version display_value="sys_script_e8c6fc7b113122107f44841f2ab352ef">3c37f0fb113122107f44841f2ab35281</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 16:19:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
