@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <condition table="x_cdltd_etp_enrollments">employeeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="employee" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>My Courses</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-07 17:50:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c1f8e8bcb98222107f44519d04ba69bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Courses</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_update_name>sysrule_view_c1f8e8bcb98222107f44519d04ba69bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-07 17:50:47</sys_updated_on>
+        <table>x_cdltd_etp_enrollments</table>
+        <view/>
+    </sysrule_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</application>
+        <file_path/>
+        <instance_id>840002434775e6148fac02ee536d4339</instance_id>
+        <instance_name>nowlearning-nlinst02866094-2ggqt-0001</instance_name>
+        <name>sysrule_view_c1f8e8bcb98222107f44519d04ba69bc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysrule_view"&gt;&lt;sysrule_view action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;condition table="x_cdltd_etp_enrollments"&gt;employeeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ&lt;item endquery="false" field="employee" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;description/&gt;&lt;device_type&gt;browser&lt;/device_type&gt;&lt;match_conditions&gt;ALL&lt;/match_conditions&gt;&lt;name&gt;My Courses&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;overrides_user_preference&gt;true&lt;/overrides_user_preference&gt;&lt;script&gt;&lt;![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysrule_view&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-07 17:50:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c1f8e8bcb98222107f44519d04ba69bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Courses&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Training Portal" source="x_cdltd_etp"&gt;65b9268b613522107f4454e7a52c3694&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Training Portal"&gt;65b9268b613522107f4454e7a52c3694&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysrule_view_c1f8e8bcb98222107f44519d04ba69bc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-07 17:50:47&lt;/sys_updated_on&gt;&lt;table&gt;x_cdltd_etp_enrollments&lt;/table&gt;&lt;view/&gt;&lt;/sysrule_view&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>47080157</payload_hash>
+        <record_name>My Courses</record_name>
+        <reverted_from/>
+        <source>50798218b50222107f44be0612a2d880</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-07 17:50:47</sys_created_on>
+        <sys_id>51292cbcb98222107f44519d04ba69b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1974b843d890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-07 17:50:47</sys_updated_on>
+        <type>View Rule</type>
+        <update_guid>55292cbc70822210e4a2ad763f3f34b3</update_guid>
+        <update_guid_history>55292cbc70822210e4a2ad763f3f34b3:47080157</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-07 17:51:47</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_view">sysrule_view</sys_db_object>
+        <sys_id>75666dcbc3984512b7cad1cf23338cc9</sys_id>
+        <sys_metadata>c1f8e8bcb98222107f44519d04ba69bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Courses</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_parent display_value="Enrollments">3a8e7d93503122107f4472b5da834720</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_scope_delete display_value="">16524640133c4f83822252435e1a0641</sys_scope_delete>
+        <sys_update_name>sysrule_view_c1f8e8bcb98222107f44519d04ba69bc</sys_update_name>
+        <sys_update_version display_value="sysrule_view_c1f8e8bcb98222107f44519d04ba69bc">51292cbcb98222107f44519d04ba69b4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-07 17:51:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

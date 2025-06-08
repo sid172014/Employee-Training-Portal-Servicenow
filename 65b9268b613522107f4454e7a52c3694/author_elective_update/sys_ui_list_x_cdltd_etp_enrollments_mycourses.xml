@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_cdltd_etp_enrollments" version="2" view="MyCourses">
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_cdltd_etp_enrollments</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-08 07:46:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d1863bc8d8222107f44310d300ff5a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_etp_enrollments</sys_name>
+            <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+            <sys_update_name>sys_ui_list_x_cdltd_etp_enrollments_MyCourses</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-08 07:46:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="My Enrolled Courses" name="MyCourses">36e6233c8d8222107f44310d300ff556</view>
+            <view_name/>
+        </sys_ui_list>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_cdltd_etp_enrollments</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-08 07:46:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d1863bc8d8222107f44310d300ff5a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_etp_enrollments</sys_name>
+            <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+            <sys_update_name>sys_ui_list_x_cdltd_etp_enrollments_MyCourses</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-08 07:46:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="My Enrolled Courses" name="MyCourses">36e6233c8d8222107f44310d300ff556</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</application>
+        <file_path/>
+        <instance_id>840002434775e6148fac02ee536d4339</instance_id>
+        <instance_name>nowlearning-nlinst02866094-2ggqt-0001</instance_name>
+        <name>sys_ui_list_x_cdltd_etp_enrollments_MyCourses</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_cdltd_etp_enrollments" version="2" view="MyCourses"><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_cdltd_etp_enrollments</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-08 07:46:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0d1863bc8d8222107f44310d300ff5a1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_etp_enrollments</sys_name><sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package><sys_policy/><sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope><sys_update_name>sys_ui_list_x_cdltd_etp_enrollments_MyCourses</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-08 07:46:02</sys_updated_on><sys_user/><view display_value="My Enrolled Courses" name="MyCourses">36e6233c8d8222107f44310d300ff556</view><view_name/></sys_ui_list><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_cdltd_etp_enrollments</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-08 07:46:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0d1863bc8d8222107f44310d300ff5a1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_etp_enrollments</sys_name><sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package><sys_policy/><sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope><sys_update_name>sys_ui_list_x_cdltd_etp_enrollments_MyCourses</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-08 07:46:02</sys_updated_on><sys_user/><view display_value="My Enrolled Courses" name="MyCourses">36e6233c8d8222107f44310d300ff556</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>518839297</payload_hash>
+        <record_name>Enrollments</record_name>
+        <reverted_from/>
+        <source>e9b9268b613522107f4454e7a52c3696</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 08:03:16</sys_created_on>
+        <sys_id>454c6ff08dc222107f44310d300ff52f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1974e90b6710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 08:03:16</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>054c6ff0a8c22210d3d755d03b02b22f</update_guid>
+        <update_guid_history>054c6ff0a8c22210d3d755d03b02b22f:518839297</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 08:03:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>16dd1710e8014c02a3b0a8eec7c7b064</sys_id>
+        <sys_metadata>0d1863bc8d8222107f44310d300ff5a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_etp_enrollments</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_parent display_value="Enrollments">3a8e7d93503122107f4472b5da834720</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_scope_delete display_value="">16524640133c4f83822252435e1a0641</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_cdltd_etp_enrollments_MyCourses</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_cdltd_etp_enrollments_MyCourses">454c6ff08dc222107f44310d300ff52f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 08:03:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

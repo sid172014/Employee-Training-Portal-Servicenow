@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-03 08:33:15</sys_created_on>
         <sys_id>1f23ca13507122107f4472b5da8347fa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_cdltd_etp_enrollments</sys_name>
         <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
         <sys_update_name>sys_security_acl_1f23ca13507122107f4472b5da8347fa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-07 16:30:24</sys_updated_on>
+        <sys_updated_on>2025-06-07 17:25:28</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

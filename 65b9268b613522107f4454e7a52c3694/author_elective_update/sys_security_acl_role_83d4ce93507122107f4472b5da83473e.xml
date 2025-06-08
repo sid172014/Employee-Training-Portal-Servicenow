@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 08:40:36</sys_created_on>
+        <sys_id>83d4ce93507122107f4472b5da83473e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_etp_progress.x_cdltd_etp.progress_user</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_security_acl display_value="x_cdltd_etp_progress">03d4ce93507122107f4472b5da83473b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_83d4ce93507122107f4472b5da83473e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 08:40:36</sys_updated_on>
+        <sys_user_role display_value="x_cdltd_etp.progress_user" name="x_cdltd_etp.progress_user">bad40293507122107f4472b5da834751</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</application>
+        <file_path/>
+        <instance_id>840002434775e6148fac02ee536d4339</instance_id>
+        <instance_name>nowlearning-nlinst02866094-2ggqt-0001</instance_name>
+        <name>sys_security_acl_role_83d4ce93507122107f4472b5da83473e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-03 08:40:36</sys_created_on><sys_id>83d4ce93507122107f4472b5da83473e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_etp_progress.x_cdltd_etp.progress_user</sys_name><sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package><sys_policy/><sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope><sys_security_acl display_value="x_cdltd_etp_progress">03d4ce93507122107f4472b5da83473b</sys_security_acl><sys_update_name>sys_security_acl_role_83d4ce93507122107f4472b5da83473e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-03 08:40:36</sys_updated_on><sys_user_role display_value="x_cdltd_etp.progress_user" name="x_cdltd_etp.progress_user">bad40293507122107f4472b5da834751</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-799962774</payload_hash>
+        <record_name>x_cdltd_etp_progress.x_cdltd_etp.progress_user</record_name>
+        <reverted_from/>
+        <source>e9b9268b613522107f4454e7a52c3696</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 08:40:36</sys_created_on>
+        <sys_id>8fd4ce93507122107f4472b5da834740</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19734f318b00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 08:40:36</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>83d4ce934c712210af2a152b829bf740</update_guid>
+        <update_guid_history>83d4ce934c712210af2a152b829bf740:-799962774</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_cdltd_etp_progress.x_cdltd_etp.progress_user">2db220b4b98222107f44519d04ba6971</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-07 17:22:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>c7b29bcfa4c54e40a7a47b6e46390e40</sys_id>
+        <sys_metadata>83d4ce93507122107f4472b5da83473e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_etp_progress.x_cdltd_etp.progress_user</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_parent display_value="x_cdltd_etp_progress">03d4ce93507122107f4472b5da83473b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_scope_delete display_value="">16524640133c4f83822252435e1a0641</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_83d4ce93507122107f4472b5da83473e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_83d4ce93507122107f4472b5da83473e">8fd4ce93507122107f4472b5da834740</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-07 17:22:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

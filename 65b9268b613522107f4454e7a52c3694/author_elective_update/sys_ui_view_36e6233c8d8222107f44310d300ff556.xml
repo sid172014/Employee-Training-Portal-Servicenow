@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>MyCourses</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 07:41:55</sys_created_on>
+        <sys_id>36e6233c8d8222107f44310d300ff556</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Enrolled Courses</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_update_name>sys_ui_view_36e6233c8d8222107f44310d300ff556</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 07:41:55</sys_updated_on>
+        <title>My Enrolled Courses</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</application>
+        <file_path/>
+        <instance_id>840002434775e6148fac02ee536d4339</instance_id>
+        <instance_name>nowlearning-nlinst02866094-2ggqt-0001</instance_name>
+        <name>sys_ui_view_36e6233c8d8222107f44310d300ff556</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>MyCourses</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-08 07:41:55</sys_created_on><sys_id>36e6233c8d8222107f44310d300ff556</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Enrolled Courses</sys_name><sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package><sys_policy/><sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope><sys_update_name>sys_ui_view_36e6233c8d8222107f44310d300ff556</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-08 07:41:55</sys_updated_on><title>My Enrolled Courses</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>537235514</payload_hash>
+        <record_name>My Enrolled Courses</record_name>
+        <reverted_from/>
+        <source>50798218b50222107f44be0612a2d880</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 07:41:56</sys_created_on>
+        <sys_id>e467ab3c8d8222107f44310d300ff5f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1974e7d2e120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 07:41:56</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>e867ab3c508222107745d31fb44d22f0</update_guid>
+        <update_guid_history>e867ab3c508222107745d31fb44d22f0:537235514</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 08:03:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>374cce38e7514d8992765c7fa6deaee1</sys_id>
+        <sys_metadata>36e6233c8d8222107f44310d300ff556</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Enrolled Courses</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_scope_delete display_value="">16524640133c4f83822252435e1a0641</sys_scope_delete>
+        <sys_update_name>sys_ui_view_36e6233c8d8222107f44310d300ff556</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_36e6233c8d8222107f44310d300ff556">e467ab3c8d8222107f44310d300ff5f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 08:03:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
