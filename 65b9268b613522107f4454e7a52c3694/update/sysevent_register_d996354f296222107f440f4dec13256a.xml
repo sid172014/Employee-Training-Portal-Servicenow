@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>This will trigger an email to all the employees with the employee role when a new course is created</description>
+        <event_name>x_cdltd_etp.email_alert</event_name>
+        <fired_by/>
+        <priority>100</priority>
+        <queue/>
+        <suffix>email_alert</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-09 19:48:45</sys_created_on>
+        <sys_id>d996354f296222107f440f4dec13256a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_etp.email_alert</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_update_name>sysevent_register_d996354f296222107f440f4dec13256a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-09 19:48:45</sys_updated_on>
+        <table>x_cdltd_etp_courses</table>
+    </sysevent_register>
+</record_update>

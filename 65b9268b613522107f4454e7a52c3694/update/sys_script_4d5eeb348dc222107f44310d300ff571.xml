@@ -12,7 +12,7 @@
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
         <collection>x_cdltd_etp_enrollments</collection>
-        <condition>(gs.hasRole('itil'))</condition>
+        <condition>(gs.hasRole('x_cdltd_etp.employee'))</condition>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
@@ -41,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4d5eeb348dc222107f44310d300ff571</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Restrict Enrollment View</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
@@ -49,7 +49,7 @@
         <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
         <sys_update_name>sys_script_4d5eeb348dc222107f44310d300ff571</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-08 17:25:40</sys_updated_on>
+        <sys_updated_on>2025-07-04 09:52:13</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

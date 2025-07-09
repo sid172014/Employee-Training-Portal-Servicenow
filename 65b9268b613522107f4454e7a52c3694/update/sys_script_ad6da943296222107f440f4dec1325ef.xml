@@ -3,22 +3,22 @@
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>false</action_insert>
-        <action_query>true</action_query>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
         <action_update>false</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_cdltd_etp_progress</collection>
-        <condition>(gs.hasRole('x_cdltd_etp.employee'))</condition>
+        <collection>x_cdltd_etp_courses</collection>
+        <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Restrict Progress View</name>
+        <name>New Course Registration Email</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -28,30 +28,34 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
 	// Add your code here
-	if(gs.getUserID()){
-		if(!gs.hasRole('admin') && !gs.hasRole('x_cdltd_etp.trainer')){
-			current.addQuery('employee',gs.getUserID());
-		}
+	var gr = new GlideRecord('sys_user_has_role');
+	gr.addQuery('role.name','x_cdltd_etp.employee');
+	gr.query();
+	
+	while(gr.next()){
+		gs.info("Email " +  gr.user.email);
+		gs.eventQueue('x_cdltd_etp.email_alert',current,gr.user.email,'');
 	}
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-08 18:38:47</sys_created_on>
+        <sys_created_on>2025-07-09 19:09:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9a8d758df44222107f441a54ebf36b02</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Restrict Progress View</sys_name>
+        <sys_id>ad6da943296222107f440f4dec1325ef</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>New Course Registration Email</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
-        <sys_update_name>sys_script_9a8d758df44222107f441a54ebf36b02</sys_update_name>
+        <sys_update_name>sys_script_ad6da943296222107f440f4dec1325ef</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-04 09:52:36</sys_updated_on>
+        <sys_updated_on>2025-07-09 20:17:23</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=9a8d758df44222107f441a54ebf36b02"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ad6da943296222107f440f4dec1325ef"/>
 </record_update>
