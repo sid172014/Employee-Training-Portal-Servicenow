@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Enrollments - Container 2</name>
+        <order>2</order>
+        <semantic_tag/>
+        <sp_page display_value="enrollments">a1317009d17222107f44bae3746fd59a</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 19:54:24</sys_created_on>
+        <sys_id>ead1b4c9d17222107f44bae3746fd596</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Enrollments - Container 2</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_update_name>sp_container_ead1b4c9d17222107f44bae3746fd596</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 20:14:47</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</application>
+        <file_path/>
+        <instance_id>91fe3ce2c3d62654d7299dcd2b013199</instance_id>
+        <instance_name>nowlearning-nlinst02959605-2qpss-0001</instance_name>
+        <name>sp_container_ead1b4c9d17222107f44bae3746fd596</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Enrollments - Container 2</name><order>2</order><semantic_tag/><sp_page display_value="enrollments">a1317009d17222107f44bae3746fd59a</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-15 19:54:24</sys_created_on><sys_id>ead1b4c9d17222107f44bae3746fd596</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Enrollments - Container 2</sys_name><sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package><sys_policy/><sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope><sys_update_name>sp_container_ead1b4c9d17222107f44bae3746fd596</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-15 20:14:47</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-963677479</payload_hash>
+        <record_name>Enrollments - Container 2</record_name>
+        <reverted_from/>
+        <source>ee9ec2a22c1222107f4489885b6abcaa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 20:14:47</sys_created_on>
+        <sys_id>9186f40dd17222107f44bae3746fd5ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1980fb9bcf60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 20:14:47</sys_updated_on>
+        <type>Container</type>
+        <update_guid>5986f40d8b7222100d22ce656a32d8fe</update_guid>
+        <update_guid_history>5986f40d8b7222100d22ce656a32d8fe:-963677479,1186f40d92722210c1fed52bacbb2afc:-424521254,a4867881cab2221037256ee5daa9915d:-963677479,6ed1b4c9c6722210fc5800d83c9c3998:-424521254</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Enrollments - Container 2">d686b841d1b222107f44bae3746fd5bb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 20:14:51</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>25d9bf723e4e4de08b21783511adc100</sys_id>
+        <sys_metadata>ead1b4c9d17222107f44bae3746fd596</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enrollments - Container 2</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_scope_delete display_value="">16524640133c4f83822252435e1a0641</sys_scope_delete>
+        <sys_update_name>sp_container_ead1b4c9d17222107f44bae3746fd596</sys_update_name>
+        <sys_update_version display_value="sp_container_ead1b4c9d17222107f44bae3746fd596">9186f40dd17222107f44bae3746fd5ff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 20:14:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">01e1b809d17222107f44bae3746fd57f</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 19:54:34</sys_created_on>
+        <sys_id>81e1340dd17222107f44bae3746fd5b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_update_name>sp_column_81e1340dd17222107f44bae3746fd5b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 19:54:34</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</application>
+        <file_path/>
+        <instance_id>91fe3ce2c3d62654d7299dcd2b013199</instance_id>
+        <instance_name>nowlearning-nlinst02959605-2qpss-0001</instance_name>
+        <name>sp_column_81e1340dd17222107f44bae3746fd5b6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">01e1b809d17222107f44bae3746fd57f</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-15 19:54:34</sys_created_on><sys_id>81e1340dd17222107f44bae3746fd5b6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package><sys_policy/><sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope><sys_update_name>sp_column_81e1340dd17222107f44bae3746fd5b6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-15 19:54:34</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>733397714</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>ee9ec2a22c1222107f4489885b6abcaa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 19:54:34</sys_created_on>
+        <sys_id>49e1340dd17222107f44bae3746fd5b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1980fa739e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 19:54:34</sys_updated_on>
+        <type>Column</type>
+        <update_guid>4de1340d9c72221002b86f2570e7f2b7</update_guid>
+        <update_guid_history>4de1340d9c72221002b86f2570e7f2b7:733397714</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">9c86380dd17222107f44bae3746fd5de</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 20:14:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>771ffe0e596e4613b4709b2aed449539</sys_id>
+        <sys_metadata>81e1340dd17222107f44bae3746fd5b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_scope_delete display_value="">16524640133c4f83822252435e1a0641</sys_scope_delete>
+        <sys_update_name>sp_column_81e1340dd17222107f44bae3746fd5b6</sys_update_name>
+        <sys_update_version display_value="sp_column_81e1340dd17222107f44bae3746fd5b6">49e1340dd17222107f44bae3746fd5b8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 20:14:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
