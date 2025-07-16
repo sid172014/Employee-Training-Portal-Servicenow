@@ -41,7 +41,7 @@
         <update_guid_history>2b230e13e3712210980a755cb41b3327:316350704</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_cdltd_etp_enrollments.x_cdltd_etp.enrollments_user">2633acb4b98222107f44519d04ba6982</sys_audit_delete>
+        <sys_audit_delete display_value="">2633acb4b98222107f44519d04ba6982</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-07 17:24:55</sys_created_on>

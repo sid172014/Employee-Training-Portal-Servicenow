@@ -48,7 +48,7 @@
         <update_guid_history>700d086fdcb1221030d2dac20263aa4a:307443891</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_cdltd_etp.courses_user">99bdcc2f4cb122107f445a6d076d9242</sys_audit_delete>
+        <sys_audit_delete display_value="">99bdcc2f4cb122107f445a6d076d9242</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-03 18:38:30</sys_created_on>

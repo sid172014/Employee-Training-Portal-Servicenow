@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3e040a53507122107f4472b5da83477e" label="Progress" max_length="40" name="x_cdltd_etp_progress" type="collection">
         <element label="Course" max_length="32" name="course" reference="x_cdltd_etp_courses" type="reference"/>
-        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
         <element label="Last Accessed" max_length="40" name="last_accessed" type="glide_date_time"/>
         <element label="Module Name" max_length="40" name="module_name" type="string"/>
         <element label="Progress Percent" max_length="40" name="progress_percent" type="integer"/>
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="course"/>
         </index>

@@ -52,7 +52,7 @@
         <update_guid_history>5986f40d8b7222100d22ce656a32d8fe:-963677479,1186f40d92722210c1fed52bacbb2afc:-424521254,a4867881cab2221037256ee5daa9915d:-963677479,6ed1b4c9c6722210fc5800d83c9c3998:-424521254</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Enrollments - Container 2">d686b841d1b222107f44bae3746fd5bb</sys_audit_delete>
+        <sys_audit_delete display_value="">d686b841d1b222107f44bae3746fd5bb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-15 20:14:51</sys_created_on>
