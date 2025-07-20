@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>course</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Courses Widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	var gr = new GlideRecord('x_cdltd_etp_courses');
+	gr.query();
+	data.INC = [];
+	while(gr.next()){
+		var properties = {};
+		properties.name = gr.name.toString();
+		properties.description = gr.description.toString();
+		properties.trainer = gr.trainer.first_name.toString() + ' ' + gr.trainer.last_name.toString();
+		properties.delivery_mode = gr.delivery_mode.toString();
+		properties.duration = gr.duration.toString();
+		data.INC.push(properties);
+	}
+})(); ]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 16:08:41</sys_created_on>
+        <sys_id>1e74a09e93f62e50d1f533ddfaba1003</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Courses Widget</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_update_name>sp_widget_1e74a09e93f62e50d1f533ddfaba1003</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 21:06:26</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <h1>Courses</h1>
+ 	<p>
+		List of Courses
+  </p>
+  <table>
+    <tr>
+    	<th>Name</th>
+      <th>Description</th>
+      <th>Trainer</th>
+      <th>Delivery Mode</th>
+      <th>Duration</th>
+    </tr>
+    <tr ng-repeat="key in data.INC">
+    	<td>{{key.name}}</td>
+      <td>{{key.description}}</td>
+      <td>{{key.trainer}}</td>
+      <td>{{key.delivery_mode}}</td>
+			<td>{{key.duration}}</td>
+    </tr>
+  </table>
+</div> ]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>copy_of_enrollments_1</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description>This shows the enrollments that the employees have currently</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 19:55:07</sys_created_on>
+        <sys_id>15023cc9d17222107f44bae3746fd583</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_enrollments_1</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_update_name>sp_page_15023cc9d17222107f44bae3746fd583</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 19:55:07</sys_updated_on>
+        <title>Copy of Enrollments (1)</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=15023cc9d17222107f44bae3746fd583"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</application>
+        <file_path/>
+        <instance_id>4fff341deba86ed83a48f459bad0cd17</instance_id>
+        <instance_name>dev311522</instance_name>
+        <name>sp_page_15023cc9d17222107f44bae3746fd583</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>copy_of_enrollments_1</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description>This shows the enrollments that the employees have currently</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 19:55:07</sys_created_on>
+        <sys_id>15023cc9d17222107f44bae3746fd583</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_enrollments_1</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_update_name>sp_page_15023cc9d17222107f44bae3746fd583</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 19:55:07</sys_updated_on>
+        <title>Copy of Enrollments (1)</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=15023cc9d17222107f44bae3746fd583"/>
+</record_update>]]></payload>
+        <payload_hash>-82459587</payload_hash>
+        <record_name>copy_of_enrollments_1</record_name>
+        <reverted_from/>
+        <source>2d8129d593fee650d1f533ddfaba1076</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-16 18:01:23</sys_created_on>
+        <sys_id>85916dd593fee650d1f533ddfaba102d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1981465f86a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-16 18:01:23</sys_updated_on>
+        <type>Page</type>
+        <update_guid>45916dd5c2fee650214f51b81a1c782d</update_guid>
+        <update_guid_history>45916dd5c2fee650214f51b81a1c782d:-82459587</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="copy_of_enrollments_1">bbbfa48293b6ea50d1f533ddfaba106f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-18 22:19:08</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>877d9f447a654eb7a3dfe4b63abc7129</sys_id>
+        <sys_metadata>15023cc9d17222107f44bae3746fd583</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_enrollments_1</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_scope_delete display_value="">16524640133c4f83822252435e1a0641</sys_scope_delete>
+        <sys_update_name>sp_page_15023cc9d17222107f44bae3746fd583</sys_update_name>
+        <sys_update_version display_value="sp_page_15023cc9d17222107f44bae3746fd583">85916dd593fee650d1f533ddfaba102d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-18 22:19:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

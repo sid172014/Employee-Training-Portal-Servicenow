@@ -15,7 +15,7 @@
         <digest_html/>
         <digest_reply_to/>
         <digest_separator_html><![CDATA[<p>&nbsp;</p>
-<hr />
+<hr>
 <p>&nbsp;</p>]]></digest_separator_html>
         <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
         <digest_subject/>
@@ -36,7 +36,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>An email notification triggered succsessfully!</p>]]></message_html>
+        <message_html><![CDATA[<p>We've got you updated with a new course in our inventory!!</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Email Notification</name>
@@ -50,7 +50,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>This is an email notification</subject>
+        <subject>Hey There ! A New Course has just been registered , Do check it out!!</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -58,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a0177d4f296222107f440f4dec1325bb</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Email Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
@@ -66,10 +66,21 @@
         <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
         <sys_update_name>sysevent_email_action_a0177d4f296222107f440f4dec1325bb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 20:09:46</sys_updated_on>
+        <sys_updated_on>2025-07-16 21:05:18</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a0177d4f296222107f440f4dec1325bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-16 21:05:17</sys_created_on>
+        <sys_id>3aabc61d93b22a50d1f533ddfaba1035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-16 21:05:17</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

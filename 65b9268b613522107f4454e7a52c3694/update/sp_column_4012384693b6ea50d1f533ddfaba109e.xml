@@ -7,18 +7,18 @@
         <size_lg/>
         <size_sm/>
         <size_xs/>
-        <sp_row display_value="1">19023cc9d17222107f44bae3746fd588</sp_row>
+        <sp_row display_value="1">8812b04693b6ea50d1f533ddfaba1056</sp_row>
         <sys_class_name>sp_column</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-15 19:55:07</sys_created_on>
-        <sys_id>dd023cc9d17222107f44bae3746fd58a</sys_id>
+        <sys_created_on>2025-07-18 22:29:13</sys_created_on>
+        <sys_id>4012384693b6ea50d1f533ddfaba109e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>1</sys_name>
         <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
-        <sys_update_name>sp_column_dd023cc9d17222107f44bae3746fd58a</sys_update_name>
+        <sys_update_name>sp_column_4012384693b6ea50d1f533ddfaba109e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-15 19:55:07</sys_updated_on>
+        <sys_updated_on>2025-07-18 22:29:13</sys_updated_on>
     </sp_column>
 </record_update>

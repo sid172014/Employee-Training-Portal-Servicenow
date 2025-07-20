@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Courses - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="courses">3ece909e93f62e50d1f533ddfaba1056</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 16:10:01</sys_created_on>
+        <sys_id>76d4289e933a2e50d1f533ddfaba1095</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Courses - Container 1</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_update_name>sp_container_76d4289e933a2e50d1f533ddfaba1095</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 16:10:01</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</application>
+        <file_path/>
+        <instance_id>4fff341deba86ed83a48f459bad0cd17</instance_id>
+        <instance_name>dev311522</instance_name>
+        <name>sp_container_76d4289e933a2e50d1f533ddfaba1095</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Courses - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="courses">3ece909e93f62e50d1f533ddfaba1056</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-19 16:10:01</sys_created_on><sys_id>76d4289e933a2e50d1f533ddfaba1095</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Courses - Container 1</sys_name><sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package><sys_policy/><sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope><sys_update_name>sp_container_76d4289e933a2e50d1f533ddfaba1095</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-19 16:10:01</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1723180315</payload_hash>
+        <record_name>Courses - Container 1</record_name>
+        <reverted_from/>
+        <source>14f4e19993fee650d1f533ddfaba1099</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 16:10:01</sys_created_on>
+        <sys_id>b6d4289e933a2e50d1f533ddfaba1097</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198237315400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 16:10:01</sys_updated_on>
+        <type>Container</type>
+        <update_guid>bad4289e383a2e5036d5f6637d0d9c96</update_guid>
+        <update_guid_history>bad4289e383a2e5036d5f6637d0d9c96:-1723180315</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Courses - Container 1">c8e4609e933a2e50d1f533ddfaba1029</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 16:10:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>08ca53871ed9441882a1e67c43a9b921</sys_id>
+        <sys_metadata>76d4289e933a2e50d1f533ddfaba1095</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Courses - Container 1</sys_name>
+        <sys_package display_value="Employee Training Portal" source="x_cdltd_etp">65b9268b613522107f4454e7a52c3694</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Training Portal">65b9268b613522107f4454e7a52c3694</sys_scope>
+        <sys_scope_delete display_value="">16524640133c4f83822252435e1a0641</sys_scope_delete>
+        <sys_update_name>sp_container_76d4289e933a2e50d1f533ddfaba1095</sys_update_name>
+        <sys_update_version display_value="sp_container_76d4289e933a2e50d1f533ddfaba1095">b6d4289e933a2e50d1f533ddfaba1097</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 16:10:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
